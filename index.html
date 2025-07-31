@@ -36,6 +36,10 @@
             height: auto;
             cursor: pointer;
             transition: transform 0.1s ease-in-out; /* Smooth transition for the click effect */
+            -webkit-user-select: none; /* For older Chrome, Safari, and Opera */
+            -moz-user-select: none; /* For Firefox */
+            -ms-user-select: none; /* For Internet Explorer/Edge */
+            user-select: none; /* Standard property */
         }
 
         /* Class added on click for feedback */
